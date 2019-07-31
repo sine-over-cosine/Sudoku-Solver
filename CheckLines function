@@ -1,0 +1,26 @@
+This function is to check on the horizontal line board[x][y] == 0, what other numbers (other than zero) are present on the line.
+Once we know what are the numbers we have, it reduces the number of possibilities we can check that specific box.
+
+Objective
+1. Check what are the numbers to be eliminated (already present on the line)
+2. Collect the numbers into an array
+3. Return the array [Bonus]
+
+[STRATEGY]
+
+***KEEP X CONSTANT*****
+STEP I.) First we can initialise a masterlist ==> int masterlst[9]={1,2,3,4,5,6,7,8,9};
+STEP 2.) from y=0 to y=8 : find all non-zero integers
+STEP 3.) Then, find the complement set a.k.a the possible answer for that grid in the board.
+***NEXT KEEP Y CONSTANT****
+We are now checking on the vertical side.
+First we can initialise a masterlist ==> int masterlst[9]={1,2,3,4,5,6,7,8,9};
+from x=0 to x=8 : find all non-zero integers
+Then, find the complement set a.k.a the possible answer for that grid in the board.
+
+Final step: From the 2 arrays..Find the intersection between the 2 arrays and get the final answer!!
+
+[IMPLEMENTATION]
+
+STEP 1 IS Q EASY
+
