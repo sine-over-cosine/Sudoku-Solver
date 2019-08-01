@@ -24,3 +24,8 @@ Final step: From the 2 arrays..Find the intersection between the 2 arrays and ge
 
 STEP 1 IS Q EASY
 
+STEP 2 IS DONE
+update: WE DO NOT find the complement first. We can just find the union of the 3 eliminated answers arrays 
+then after that find the complement set altogether for the masterlst. Store the possible answer array in a
+statistic when initialised.
+
