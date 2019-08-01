@@ -1,0 +1,5 @@
+We can also eliminate certain wrong answers, but we need to be intelligent in
+where are we searching. If the top most grid is empty or labelled '0', we do not 
+want to search anything above it (because there is nothing)
+
+[STRATEGY]
