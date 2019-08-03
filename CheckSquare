@@ -3,3 +3,16 @@ where are we searching. If the top most grid is empty or labelled '0', we do not
 want to search anything above it (because there is nothing)
 
 [STRATEGY]
+
+if row is from 0 to 2:
+ column is from 0 to 2:
+  then check from row[0 to 2], column [0 to 2]
+  
+  in other words, it is used to checkif rows and column falls within the range, then check within the suitable ranges
+   for for e.g[board][3][7]
+    then check board[3-5][6-8]
+    
+    so in general, from index:
+      0,1,2 check 0 to 2
+      3,4,5 check 3 to 5
+      6,7,8 check 4 to 8
