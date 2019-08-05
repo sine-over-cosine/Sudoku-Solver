@@ -29,3 +29,11 @@ update: WE DO NOT find the complement first. We can just find the union of the 3
 then after that find the complement set altogether for the masterlst. Store the possible answer array in a
 statistic when initialised.
 
+Update:
+
+We find all the impossible numbers from line, column and square and merge them into a larger array
+After, we remove its duplicates and then find the complement from the answwer.
+
+To do:
+implement the duplicate remover[by 12 August 2019]
+implement the complement(commented) [by 19 August 2019]
